@@ -6,6 +6,8 @@
     <!-- 自动扫描指定的包，下面所有注解类交给IOC容器管理 -->
     <context:component-scan base-package="com.kuang.controller"/>
 
+    <!--静态资源过滤-->
+    <mvc:default-servlet-handler/>
     <mvc:annotation-driven/>
 
     <!-- 视图解析器 -->
